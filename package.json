@@ -1,0 +1,23 @@
+{
+  "name": "cjsToEsModule",
+  "version": "0.0.1",
+  "description": "A project to convert commonJS require to es6 import",
+  "main": "src/App.ts",
+  "repository": "https://github.com/akshayupadhya/cjsToEsModule.git",
+  "author": "akshay upadhya <akshaysrinagar@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ts-node": "^8.4.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  }
+}
