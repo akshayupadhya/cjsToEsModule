@@ -3,7 +3,7 @@ A project to convert commonJS require to es6 import
 
 ## Why?
 
-Lets face it , if you have a javaScript app that has a build process involving webpack/rollup and you are not doing code optimization like code splitting and tree shaking, then you not are delivering it for audience in 2019+. If your app is built with commonJS (which was the standard in 2014, before es module spec was released) you cannot achive any of those optimizations in build process.
+Lets face it , if you have a javaScript app that has a build process involving webpack/rollup and you are not doing code optimization like code splitting and tree shaking, then you are not delivering it for audience in 2019+. If your app is built with commonJS (which was the standard in 2014, before es module spec was released) you cannot achive any of those optimizations in build process.
 
 With features like modules and moduleMap getting builtIn to chrome and firefox , lets utilize it and cut the network dependent loading time for apps.
 
