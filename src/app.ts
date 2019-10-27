@@ -1,2 +1,6 @@
+import { TransformImports } from './import';
 
-console.log('works')
+export default function cjsToEsModule(page: string): string {
+  page = TransformImports(page);
+  return page;
+}
