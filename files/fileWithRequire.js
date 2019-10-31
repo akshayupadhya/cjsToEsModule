@@ -2,10 +2,11 @@
 /* eslint-disable */
 const React = require('react')
 const Uppy = require('@uppy/core')
-const Tus = require('@uppy/tus')
-const GoogleDrive = require('@uppy/google-drive')
-const { Dashboard, DashboardModal, DragDrop, ProgressBar } = require('@uppy/react')
-
+let Tus = require('@uppy/tus')
+var GoogleDrive = require('@uppy/google-drive')
+const { DragDrop, ProgressBar } = require('@uppy/react')
+const Dashboard = require('@uppy/react').Dashboard
+const D = require('@uppy/react').DashboardModal
 module.exports = class App extends React.Component {
   constructor(props) {
     super(props)
