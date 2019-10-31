@@ -27,7 +27,7 @@ export function TransformImports(page: string): string {
       page = page.substring(0, lastVarPos) + importStr + page.substring(lastNewLinePos)
       lastNewLinePos = page.indexOf('\n', requirePos);
     }
-    console.info(page)
+    // console.info(page)
     return page;
   } else return page;
 }
