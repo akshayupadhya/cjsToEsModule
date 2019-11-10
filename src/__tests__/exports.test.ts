@@ -1,4 +1,4 @@
-import { asyncReadFile } from "./utils"
+import { asyncReadFile } from "../utils"
 import { transformExports } from "../exports"
 
 describe('exports', () => {

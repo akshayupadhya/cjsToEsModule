@@ -1,5 +1,5 @@
 import { TransformImports } from '../import';
-import { asyncReadFile } from './utils'
+import { asyncReadFile } from '../utils'
 
 describe('import transform', () => {
   it('file', async () => {
